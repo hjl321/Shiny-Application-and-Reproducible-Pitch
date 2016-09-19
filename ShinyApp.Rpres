@@ -1,0 +1,52 @@
+Course Project: Shiny Application
+========================================================
+author: HJL
+date: 19.9.2016
+autosize: true
+
+General
+========================================================
+
+This presentation is a part of a Coursera Data Science Specialization course - Developping Data products.
+
+Assigment: **Course Project: Shiny Application and Reproducible Pitch**
+
+The app developped can be found https://xxxx.shinyapps.io/shiny_app_mtcars/
+
+Sources for the application can be found https://github.com/hjl321/Shiny-Application-and-Reproducible-Pitch
+
+
+Application overview 1
+========================================================
+
+Tool for selecting a suitable car.
+
+**Selection criterias are**
+
+* Number of cylinders
+* Horsepower
+* Transmission type
+
+
+Application overview 2
+========================================================
+
+In Selected cars tab user can sort and filter data
+using sorting and filtering tools of a table
+
+
+Dataset overview
+========================================================
+
+Preview of a cars dataset.
+
+```{r}
+head(mtcars)
+```
+
+Graphical overview 
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars$wt, mtcars$mpg, main="Cars by weight and miles per gallon",xlab ="Weight",ylab="Miles per gallon")
+```
